@@ -1,0 +1,9 @@
+.docker/
+.kube/
+.ssh/
+.bash_history
+.bash_logout
+.bashrc
+.lesshst
+.profile
+.wget-hsts
