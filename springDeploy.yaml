@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring
+spec:
+  selector:
+    matchLabels:
+      run: spring
+  template:
+    metadata:
+      labels:
+        run: spring
+    spec:
+      containers:
+      - name: spring
+        image: vsys1920/springcass
+        ports:
+        - containerPort: 8080
